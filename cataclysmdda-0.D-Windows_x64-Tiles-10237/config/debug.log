@@ -1,0 +1,19 @@
+
+
+-----------------------------------------
+18:19:07.003 : Starting log.
+18:19:07.007 INFO : Cataclysm DDA version 0.D-11545-ge497763
+18:19:07.049 INFO : Number of render drivers on your system: 4
+18:19:07.049 INFO : Render driver: 0/direct3d
+18:19:07.049 INFO : Render driver: 1/direct3d11
+18:19:07.050 INFO : Render driver: 2/opengl
+18:19:07.050 INFO : Render driver: 3/software
+18:19:07.072 INFO : Language is set to: 'zh_CN'
+18:19:07.360 INFO : SDL version used during compile is 2.0.5
+18:19:07.360 INFO : SDL version used during linking and in runtime is 2.0.5
+18:19:07.825 INFO : Active renderer: 0/direct3d
+18:19:08.502 INFO : USE_COLOR_MODULATED_TEXTURES is set to 0
+18:19:08.825 WARNING : opendir [./mods/] failed with "No such file or directory".
+18:19:11.023 : Log shutdown.
+-----------------------------------------
+
