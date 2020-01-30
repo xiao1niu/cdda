@@ -145,7 +145,7 @@
   },
   { "info": "鼠标移动至窗口边缘时滚动屏幕。", "default": "默认：Normal", "name": "EDGE_SCROLL", "value": "30"
   },
-  { "info": "开启后，将显示下列被启用的动画。", "default": "默认：是", "name": "ANIMATIONS", "value": "true"
+  { "info": "开启后，将显示下列被启用的动画。", "default": "默认：是", "name": "ANIMATIONS", "value": "false"
   },
   { "info": "开启后，将显示天气动画。", "default": "默认：是", "name": "ANIMATION_RAIN", "value": "true"
   },
@@ -155,13 +155,13 @@
   },
   { "info": "开启后，战斗气泡动画将使用Unicode字符而非贴图包。", "default": "默认：是", "name": "ANIMATION_SCT_USE_FONT", "value": "true"
   },
-  { "info": "每帧动画之间的延迟时间。以毫秒为单位。", "default": "默认：10 （最小：0，最大：100）", "name": "ANIMATION_DELAY", "value": "10"
+  { "info": "每帧动画之间的延迟时间。以毫秒为单位。", "default": "默认：10 （最小：0，最大：100）", "name": "ANIMATION_DELAY", "value": "11"
   },
   { "info": "开启时，则游戏会在每个回合强制重新渲染。", "default": "默认：是", "name": "FORCE_REDRAW", "value": "true"
   },
-  { "info": "设置窗口的宽度（X方向），需要重新启动。", "default": "默认：80 （最小：80，最大：960）", "name": "TERMINAL_X", "value": "80"
+  { "info": "设置窗口的宽度（X方向），需要重新启动。", "default": "默认：80 （最小：80，最大：960）", "name": "TERMINAL_X", "value": "120"
   },
-  { "info": "设置窗口的高度（Y方向），需要重新启动。", "default": "默认：24 （最小：24，最大：270）", "name": "TERMINAL_Y", "value": "24"
+  { "info": "设置窗口的高度（Y方向），需要重新启动。", "default": "默认：24 （最小：24，最大：270）", "name": "TERMINAL_Y", "value": "45"
   },
   { "info": "开启后，字体显示效果会更好。", "default": "默认：否", "name": "FONT_BLENDING", "value": "false"
   },
@@ -185,9 +185,9 @@
   },
   { "info": "使用SDL绘制线条而不是Unicode字符绘制线条。如果所选字体不包含绘制线条所必要的字符，请使用此选项。", "default": "默认：是", "name": "USE_DRAW_ASCII_LINES_ROUTINE", "value": "true"
   },
-  { "info": "开启时，将使用贴图包替换游戏地图中的TTF文本。需要重启游戏。", "default": "默认：是", "name": "USE_TILES", "value": "true"
+  { "info": "开启时，将使用贴图包替换游戏地图中的TTF文本。需要重启游戏。", "default": "默认：是", "name": "USE_TILES", "value": "false"
   },
-  { "info": "选择你想要的贴图包。", "default": "默认：retrodays - 可选值：ASCIITiles，ChestHole16，HitButton_iso，hoder，retrodays+，retrodays", "name": "TILES", "value": "retrodays"
+  { "info": "选择你想要的贴图包。", "default": "默认：retrodays - 可选值：ASCIITiles，ChestHole16，HitButton_iso，hoder，retrodays+，retrodays", "name": "TILES", "value": "ASCIITiles"
   },
   { "info": "选择地图记忆的绘制方式。需要重启。", "default": "默认：color_pixel_sepia - 可选值：color_pixel_darken，color_pixel_sepia", "name": "MEMORY_MAP_MODE", "value": "color_pixel_sepia"
   },
@@ -263,7 +263,7 @@
   },
   { "info": "决定怪物血量。该值更高会让怪物们更抗揍，该值较低会让怪物们像瓷娃娃一样软弱。需要重置世界。", "default": "默认：100 （最小：1，最大：1000）", "name": "MONSTER_RESILIENCE", "value": "100%"
   },
-  { "info": "（WIP功能）确定地形，商店，工厂，等等。", "default": "默认：default - 可选值：default", "name": "DEFAULT_REGION", "value": "default"
+  { "info": "（WIP功能）确定地形，商店，工厂，等等。", "default": "默认：default - 可选值：default，desert_test", "name": "DEFAULT_REGION", "value": "default"
   },
   { "info": "创建角色时的开始时间。", "default": "默认：8 （最小：0，最大：23）", "name": "INITIAL_TIME", "value": "8"
   },

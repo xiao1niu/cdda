@@ -1,0 +1,80 @@
+The program has crashed.
+See the log file for a stack trace.
+CRASH LOG FILE: ./config/crash.log
+VERSION: 0.D-11545-ge497763
+TYPE: Signal
+MESSAGE: SIGSEGV: Segmentation fault
+STACK TRACE:
+
+  #0
+    (dbghelp: @0x603a36[cataclysm-tiles.exe+0x203a36]), 
+    (libbacktrace: Z21debug_write_backtraceRSo+0x56@0x603a36),
+    (libbacktrace: 0x603a36    [unknown src]:0    [unknown func]),
+  #1
+    (dbghelp: @0x5e8daf[cataclysm-tiles.exe+0x1e8daf]), 
+    (libbacktrace: log_crash+0x4af@0x5e8daf),
+    (libbacktrace: 0x5e8daf    [unknown src]:0    [unknown func]),
+  #2
+    (dbghelp: @0x5e9a72[cataclysm-tiles.exe+0x1e9a72]), 
+    (libbacktrace: signal_handler+0x32@0x5e9a72),
+    (libbacktrace: 0x5e9a72    [unknown src]:0    [unknown func]),
+  #3
+    (dbghelp: SMPEG_error+0x4b034@0xff4590[cataclysm-tiles.exe+0xbf4590]), 
+    (libbacktrace: gnu_exception_handler+0x70@0xff4590),
+    (libbacktrace: 0xff4590    /home/narc/src/mxe/tmp-gcc-x86_64-w64-mingw32.static/gcc-5.4.0.build_/mingw-w64-v5.0.2/mingw-w64-crt/crt/crt_handler.c:223    _gnu_exception_handler),
+  #4
+    (dbghelp: _C_specific_handler+0x98@0x7ffd45077c58[msvcrt.dll+0x27c58]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #5
+    (dbghelp: _chkstk+0x11d@0x7ffd4694f7dd[ntdll.dll+0x9f7dd]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #6
+    (dbghelp: RtlWalkFrameChain+0x13f6@0x7ffd468bd856[ntdll.dll+0xd856]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #7
+    (dbghelp: KiUserExceptionDispatcher+0x2e@0x7ffd4694e70e[ntdll.dll+0x9e70e]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #8
+    (dbghelp: @0x996403[cataclysm-tiles.exe+0x596403]), 
+    (libbacktrace: ZN3map17hoist_submap_campERK8tripoint+0x13@0x996403),
+    (libbacktrace: 0x996403    [unknown src]:0    [unknown func]),
+  #9
+    (dbghelp: @0x6ea46a[cataclysm-tiles.exe+0x2ea46a]), 
+    (libbacktrace: ZN4game14validate_campsEv+0x3a@0x6ea46a),
+    (libbacktrace: 0x6ea46a    [unknown src]:0    [unknown func]),
+  #10
+    (dbghelp: @0x70289e[cataclysm-tiles.exe+0x30289e]), 
+    (libbacktrace: ZN4game4loadERK6save_t+0x174e@0x70289e),
+    (libbacktrace: 0x70289e    [unknown src]:0    [unknown func]),
+  #11
+    (dbghelp: @0x961094[cataclysm-tiles.exe+0x561094]), 
+    (libbacktrace: ZN9main_menu18load_character_tabEb+0x1674@0x961094),
+    (libbacktrace: 0x961094    [unknown src]:0    [unknown func]),
+  #12
+    (dbghelp: @0x964d09[cataclysm-tiles.exe+0x564d09]), 
+    (libbacktrace: ZN9main_menu14opening_screenEv+0xf49@0x964d09),
+    (libbacktrace: 0x964d09    [unknown src]:0    [unknown func]),
+  #13
+    (dbghelp: IMG_LoadWEBP_RW+0x662dd4@0x17491d4[cataclysm-tiles.exe+0x13491d4]), 
+    (libbacktrace: main+0x1524@0x17491d4),
+    (libbacktrace: 0x17491d4    [unknown src]:0    [unknown func]),
+  #14
+    (dbghelp: @0x4013ed[cataclysm-tiles.exe+0x13ed]), 
+    (libbacktrace: _tmainCRTStartup+0x23d@0x4013ed),
+    (libbacktrace: 0x4013ed    /home/narc/src/mxe/tmp-gcc-x86_64-w64-mingw32.static/gcc-5.4.0.build_/mingw-w64-v5.0.2/mingw-w64-crt/crt/crtexe.c:336    __tmainCRTStartup),
+  #15
+    (dbghelp: @0x4014fb[cataclysm-tiles.exe+0x14fb]), 
+    (libbacktrace: WinMainCRTStartup+0x1b@0x4014fb),
+    (libbacktrace: 0x4014fb    /home/narc/src/mxe/tmp-gcc-x86_64-w64-mingw32.static/gcc-5.4.0.build_/mingw-w64-v5.0.2/mingw-w64-crt/crt/crtexe.c:186    WinMainCRTStartup),
+  #16
+    (dbghelp: BaseThreadInitThunk+0x14@0x7ffd452e4034[KERNEL32.DLL+0x14034]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #17
+    (dbghelp: RtlUserThreadStart+0x21@0x7ffd46923691[ntdll.dll+0x73691]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
