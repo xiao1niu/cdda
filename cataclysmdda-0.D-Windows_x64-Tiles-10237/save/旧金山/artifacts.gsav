@@ -1,3 +1,6 @@
 [
-  
+  { "type": "artifact_tool", "id": "artifact_0", "name": "[神器]暗影石碑的立方体", "description": "这是供建筑师设计建筑时用的方块神器。", "sym": "*", "color": 139264, "price": 0, "materials": [ "steel" ], "volume": 2, "weight": 1760, "melee_dam": 20, "melee_cut": 0, "m_to_hit": -2, "item_flags": [  ], "techniques": [  ], "ammo": [  ], "max_charges": 0, "def_charges": 0, "charges_per_use": 1, "turns_per_charge": 0, "charge_type": 0, "charge_req": 0, "effects_wielded": [  ], "effects_activated": [  ], "effects_carried": [ 11 ], "dream_unmet": [ "The %s is somehow vaguely dissatisfied even though it doesn't want anything.  Seeing this is a bug!" ], "dream_met": [ "The %s is satisfied, as it should be because it has no standards.  Seeing this is a bug!" ], "dream_freq_unmet": 100, "dream_freq_met": 0
+  },
+  { "type": "artifact_tool", "id": "artifact_1", "name": "[神器]刺耳的海胆石", "description": "这是一个带刺球体，移动时发出刺耳的响声。", "sym": ":", "color": 925696, "price": 0, "materials": [ "stone" ], "volume": 4, "weight": 416, "melee_dam": 0, "melee_cut": 0, "m_to_hit": 0, "item_flags": [  ], "techniques": [  ], "ammo": [  ], "max_charges": 2, "def_charges": 2, "charges_per_use": 1, "turns_per_charge": 0, "charge_type": 5, "charge_req": 0, "effects_wielded": [  ], "effects_activated": [ 14, 31 ], "effects_carried": [  ], "dream_unmet": [ "The %s is somehow vaguely dissatisfied even though it doesn't want anything.  Seeing this is a bug!" ], "dream_met": [ "The %s is satisfied, as it should be because it has no standards.  Seeing this is a bug!" ], "dream_freq_unmet": 100, "dream_freq_met": 0
+  }
 ]

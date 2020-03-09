@@ -23,19 +23,19 @@ STACK TRACE:
     (libbacktrace: gnu_exception_handler+0x70@0xff4590),
     (libbacktrace: 0xff4590    /home/narc/src/mxe/tmp-gcc-x86_64-w64-mingw32.static/gcc-5.4.0.build_/mingw-w64-v5.0.2/mingw-w64-crt/crt/crt_handler.c:223    _gnu_exception_handler),
   #4
-    (dbghelp: _C_specific_handler+0x98@0x7ffd45077c58[msvcrt.dll+0x27c58]), 
+    (dbghelp: _C_specific_handler+0x98@0x7ffc29dc8068[msvcrt.dll+0x28068]), 
     (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
     (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
   #5
-    (dbghelp: _chkstk+0x11d@0x7ffd4694f7dd[ntdll.dll+0x9f7dd]), 
+    (dbghelp: _chkstk+0x11f@0x7ffc2b6a467f[ntdll.dll+0xa467f]), 
     (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
     (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
   #6
-    (dbghelp: RtlWalkFrameChain+0x13f6@0x7ffd468bd856[ntdll.dll+0xd856]), 
+    (dbghelp: RtlWalkFrameChain+0x14bf@0x7ffc2b604bef[ntdll.dll+0x4bef]), 
     (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
     (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
   #7
-    (dbghelp: KiUserExceptionDispatcher+0x2e@0x7ffd4694e70e[ntdll.dll+0x9e70e]), 
+    (dbghelp: KiUserExceptionDispatcher+0x2e@0x7ffc2b6a33ee[ntdll.dll+0xa33ee]), 
     (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
     (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
   #8
@@ -71,10 +71,10 @@ STACK TRACE:
     (libbacktrace: WinMainCRTStartup+0x1b@0x4014fb),
     (libbacktrace: 0x4014fb    /home/narc/src/mxe/tmp-gcc-x86_64-w64-mingw32.static/gcc-5.4.0.build_/mingw-w64-v5.0.2/mingw-w64-crt/crt/crtexe.c:186    WinMainCRTStartup),
   #16
-    (dbghelp: BaseThreadInitThunk+0x14@0x7ffd452e4034[KERNEL32.DLL+0x14034]), 
+    (dbghelp: BaseThreadInitThunk+0x14@0x7ffc2b517e94[KERNEL32.DLL+0x17e94]), 
     (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
     (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
   #17
-    (dbghelp: RtlUserThreadStart+0x21@0x7ffd46923691[ntdll.dll+0x73691]), 
+    (dbghelp: RtlUserThreadStart+0x21@0x7ffc2b66a251[ntdll.dll+0x6a251]), 
     (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
     (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),

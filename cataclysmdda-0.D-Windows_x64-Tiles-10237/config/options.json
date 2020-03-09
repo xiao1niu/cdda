@@ -1,7 +1,7 @@
 [
   { "info": "设置创建角色时使用的默认角色名称，而不是使用随机产生的角色名称。", "default": "默认：", "name": "DEF_CHAR_NAME", "value": ""
   },
-  { "info": "开启自动拾取功能。在自动拾取管理中可进一步设置自动拾取规则。", "default": "默认：否", "name": "AUTO_PICKUP", "value": "false"
+  { "info": "开启自动拾取功能。在自动拾取管理中可进一步设置自动拾取规则。", "default": "默认：否", "name": "AUTO_PICKUP", "value": "true"
   },
   { "info": "开启后，玩家周围一格的东西将会被自动拾取。你可以用\"Y\"键的区域管理菜单设置不拾取区域，例如你的基地和家中。", "default": "默认：否", "name": "AUTO_PICKUP_ADJACENT", "value": "false"
   },
@@ -23,7 +23,7 @@
   },
   { "info": "开启时，超重物品将保留在物品栏中不被自动丢下。关闭时，新拾取的超重物品将会被自动丢下。", "default": "默认：否", "name": "DANGEROUS_PICKUPS", "value": "false"
   },
-  { "info": "总是：在进入危险地形前总是提示你。奔跑：仅能在奔跑时进入危险地形，进入前提示。蹲伏：仅能在蹲伏时进入危险地形，进入前提示。从不：仅能在奔跑时进入危险地形，进入前无提示。", "default": "默认：ALWAYS - 可选值：ALWAYS，RUNNING，CROUCHING，NEVER", "name": "DANGEROUS_TERRAIN_WARNING_PROMPT", "value": "ALWAYS"
+  { "info": "总是：在进入危险地形前总是提示你。奔跑：仅能在奔跑时进入危险地形，进入前提示。蹲伏：仅能在蹲伏时进入危险地形，进入前提示。从不：仅能在奔跑时进入危险地形，进入前无提示。", "default": "默认：ALWAYS - 可选值：ALWAYS，RUNNING，CROUCHING，NEVER", "name": "DANGEROUS_TERRAIN_WARNING_PROMPT", "value": "RUNNING"
   },
   { "info": "开启时，当敌对怪物/NPC接近时，将暂停游戏并显示警告。", "default": "默认：是", "name": "SAFEMODE", "value": "true"
   },
@@ -91,7 +91,7 @@
   },
   { "info": "采用默认布局打开高级物品管理页面", "default": "默认：否", "name": "OPEN_DEFAULT_ADV_INV", "value": "false"
   },
-  { "info": "开启后，可执行的操作（如阅读、消耗、系紧等）会在物品信息栏一旁列出。", "default": "默认：是", "name": "INV_USE_ACTION_NAMES", "value": "true"
+  { "info": "开启后，可执行的操作（如阅读、消耗、系紧等）会在物品信息栏一旁列出。", "default": "默认：是", "name": "INV_USE_ACTION_NAMES", "value": "false"
   },
   { "info": "方向键与CTRL和SHIFT组合按下时可以斜向移动，斜向移动将使用按键设置中对应的斜向移动案件，因此需要在按键设置中提前配置完成。", "default": "默认：none - 可选值：none，mode1，mode2，mode3", "name": "DIAG_MOVE_WITH_MODIFIERS_MODE", "value": "none"
   },
@@ -121,7 +121,7 @@
   },
   { "info": "心情图标在侧边栏处的显示形式。", "default": "默认：vertical - 可选值：vertical，horizontal", "name": "MORALE_STYLE", "value": "vertical"
   },
-  { "info": "开启后，高级物品管理菜单将全屏显示，否则将保持侧边栏可见。", "default": "默认：否", "name": "AIM_WIDTH", "value": "false"
+  { "info": "开启后，高级物品管理菜单将全屏显示，否则将保持侧边栏可见。", "default": "默认：否", "name": "AIM_WIDTH", "value": "true"
   },
   { "info": "在移动当前视角画面时每次按键所移动的方格数。", "default": "默认：1 （最小：1，最大：50）", "name": "MOVE_VIEW_OFFSET", "value": "1"
   },
@@ -159,9 +159,9 @@
   },
   { "info": "开启时，则游戏会在每个回合强制重新渲染。", "default": "默认：是", "name": "FORCE_REDRAW", "value": "true"
   },
-  { "info": "设置窗口的宽度（X方向），需要重新启动。", "default": "默认：80 （最小：80，最大：960）", "name": "TERMINAL_X", "value": "120"
+  { "info": "设置窗口的宽度（X方向），需要重新启动。", "default": "默认：80 （最小：80，最大：960）", "name": "TERMINAL_X", "value": "239"
   },
-  { "info": "设置窗口的高度（Y方向），需要重新启动。", "default": "默认：24 （最小：24，最大：270）", "name": "TERMINAL_Y", "value": "45"
+  { "info": "设置窗口的高度（Y方向），需要重新启动。", "default": "默认：24 （最小：24，最大：270）", "name": "TERMINAL_Y", "value": "63"
   },
   { "info": "开启后，字体显示效果会更好。", "default": "默认：否", "name": "FONT_BLENDING", "value": "false"
   },
@@ -277,7 +277,7 @@
   },
   { "info": "锁定季节直到永远。", "default": "默认：否", "name": "ETERNAL_SEASON", "value": "false"
   },
-  { "info": "模拟丧尸群（尸潮）。丧尸刷新点在城镇周围移动，并且可能被噪声吸引。变更后必须重置世界才能生效。", "default": "默认：否", "name": "WANDER_SPAWNS", "value": "false"
+  { "info": "模拟丧尸群（尸潮）。丧尸刷新点在城镇周围移动，并且可能被噪声吸引。变更后必须重置世界才能生效。", "default": "默认：否", "name": "WANDER_SPAWNS", "value": "true"
   },
   { "info": "开启时，则将在避难所内生成丧尸，使游戏起始时期更加困难。", "default": "默认：否", "name": "BLACK_ROAD", "value": "false"
   },
@@ -285,13 +285,13 @@
   },
   { "info": "决定是否生成起始NPC，以及如何生成他们。", "default": "默认：scenario - 可选值：never，always，scenario", "name": "STARTING_NPC", "value": "scenario"
   },
-  { "info": "开启后，会在游戏中随机生成四处游荡的NPC。", "default": "默认：否", "name": "RANDOM_NPC", "value": "false"
+  { "info": "开启后，会在游戏中随机生成四处游荡的NPC。", "default": "默认：否", "name": "RANDOM_NPC", "value": "true"
   },
   { "info": "开启后，辐射将会导致玩家变异。", "default": "默认：是", "name": "RAD_MUTATION", "value": "true"
   },
   { "info": "开启后，将启用实验性的Z轴地图。如果游戏运行速度过慢，请关闭此功能。", "default": "默认：是", "name": "ZLEVELS", "value": "true"
   },
-  { "info": "开启时，上下楼梯将被对齐在同一水平位置，即使这将让地图更丑陋。", "default": "默认：否", "name": "ALIGN_STAIRS", "value": "false"
+  { "info": "开启时，上下楼梯将被对齐在同一水平位置，即使这将让地图更丑陋。", "default": "默认：否", "name": "ALIGN_STAIRS", "value": "true"
   },
   { "info": "在创建角色时所允许的加点方式。", "default": "默认：any - 可选值：any，multi_pool，no_freeform", "name": "CHARACTER_POINT_POOLS", "value": "any"
   }

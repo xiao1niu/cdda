@@ -1,3 +1,6 @@
 [
-  
+  { "rule": "研究日志-埃雷拉", "active": true, "exclude": false
+  },
+  { "rule": "入侵无人机简单学", "active": true, "exclude": false
+  }
 ]
